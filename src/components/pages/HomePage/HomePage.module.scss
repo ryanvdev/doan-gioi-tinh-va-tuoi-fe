@@ -1,0 +1,25 @@
+.sample-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    width: 100%;
+    height: auto;
+
+    padding: 20px 0px;
+}
+
+.sample-item {
+    display: block;
+    width: calc(33% - 10px);
+    height: auto;
+    aspect-ratio: 16/9;
+
+    border-radius: 5px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
